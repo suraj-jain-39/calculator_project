@@ -1,0 +1,173 @@
+* {
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    min-height: 42px;
+    height: 42px;    
+}
+
+.leftMenuIcon {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.leftMenuIcon:hover path {
+    stroke:#ffffff;
+}
+
+.historyIcon {
+    margin: 12px;
+    cursor: pointer;
+}
+
+.historyIcon:hover path {
+    fill:#ffffff;
+}
+
+.lowerBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.leftMenu {
+    position: relative;
+    left: -26%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 11);
+    color: rgb(80, 80, 80);
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 8px;
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    transition: left 0.3s ease-in-out;
+    
+}
+
+.leftMenu > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1.5px solid #ffffff;
+}
+
+.leftMenu > ul > li:hover {
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+}
+
+.calcBG {
+    position: relative;
+    bottom: 42px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 11);
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 8px;
+    width: 206px;
+    height: 369px;
+    cursor: pointer;
+}
+
+.calcScreen {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    border: 1px solid rgb(37, 37, 37);
+    outline: none;
+    height: 64px;
+    padding: 0 5% 0 5%;
+    margin: 5%;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.delIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 5% 5% 5%;
+}
+
+.delSVG:hover path {
+    stroke: #ffffff;
+}
+
+.calcPad {
+    display: grid;
+    grid-template-rows: repeat(5, 40px);
+    grid-template-columns: repeat(4, 40px);
+    gap: 8px;
+    margin: 0% 5% 5% 5%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: rgb(21, 21, 21);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.button:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+.rightMenu {
+    position: relative;
+    right: -26%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 11, 11);
+    color: #ffffff;
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 8px;
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    transition: right 0.3s ease-in-out;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #505050 #0b0b0b;
+    scrollbar-color: #afafaf #f4f4f4;
+}
+
+.rightMenu > ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 8px;
+    border-bottom: 1.5px solid #ffffff;
+}
