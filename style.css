@@ -130,5 +130,6 @@ body {
     flex-direction: column;
     list-style-type: none;
     padding: 0.5rem;
+    font-family: monospace;
     border-bottom: 1.5px solid #ffffff;
 }
