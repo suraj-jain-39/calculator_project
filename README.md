@@ -128,8 +128,9 @@ return new Function('return ' + expression)();
 ## 🛠️ How to Run
 
 1. Download or clone the repository
-2. Open `index.html` in your browser
-3. Start calculating!
+   git clone https://github.com/suraj-oswal-39/calculator_project.git
+3. Open `index.html` in your browser
+4. Start calculating!
 
 ---
 
