@@ -80,20 +80,6 @@ app.controller('MyController1', function ($scope) {
 });
 
 app.controller('MyController2', function($scope) { 
-    $scope.leftMenu = document.getElementsByClassName('leftMenu')[0];
-    $scope.leftMenuIcon = document.getElementsByClassName('leftMenuIcon')[0];
-    let openLeftMenu = 1;
-    $scope.toggleLeftMenu = function () {
-        if (openLeftMenu === 1) {
-            $scope.leftMenu.style.left = "0%";
-            $scope.leftMenuIcon.style.stroke = "#ffffff";
-            openLeftMenu = 0;
-        } else {
-            $scope.leftMenu.style.left = "-26%";
-            $scope.leftMenuIcon.style.stroke = "#505050";
-            openLeftMenu = 1;
-        }
-    }
 
     $scope.rightMenu = document.getElementsByClassName('rightMenu')[0];
     $scope.historyIcon = document.getElementsByClassName('historyIcon')[0];
@@ -103,7 +89,7 @@ app.controller('MyController2', function($scope) {
             $scope.rightMenu.style.right = "0%";
             $scope.historyIcon.style.fill = "#ffffff";
         } else {
-            $scope.rightMenu.style.right = "-26%";
+            $scope.rightMenu.style.right = "-100%";
             $scope.historyIcon.style.fill = "#505050";
         }
         openHistory = !openHistory;
