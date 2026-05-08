@@ -19,6 +19,16 @@ It supports basic arithmetic operations, percentage calculations, bracket handli
 
 ---
 
+## 🎓 Leaned
+
+Developed as a learning project for:
+
+* AngularJS
+* DOM manipulation
+* Expression parsing
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -146,11 +156,8 @@ Simple, responsive calculator with history panel and clean UI.
 
 ## 👨‍💻 Author
 
-Developed as a learning project for:
-
-* AngularJS
-* DOM manipulation
-* Expression parsing
+**Suraj Uttamchand Oswal**
+📧 [surajoswal3@gmail.com](mailto:surajoswal3@gmail.com)
 
 ---
 
