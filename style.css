@@ -117,6 +117,7 @@ body {
     width: 16rem;
     height: 100%;
     font-size: 1rem;
+    font-family: monospace;
     transition: right 0.3s ease-in-out;
     overflow-y: auto;
     overflow-x: hidden;
