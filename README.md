@@ -7,15 +7,15 @@ It supports basic arithmetic operations, percentage calculations, bracket handli
 
 ## 🚀 Features
 
-* ✅ Basic operations: `+`, `-`, `×`, `/`
-* ✅ Percentage calculation (`%`)
-* ✅ Smart bracket handling `()`
-* ✅ Input validation (prevents invalid expressions)
-* ✅ Character limit (22 characters)
-* ✅ Keyboard input support via `<textarea>`
-* ✅ Delete (backspace) functionality
-* ✅ Calculation history panel (toggle view)
-* ✅ Clean dark UI design
+* Basic operations: `+`, `-`, `×`, `/`
+* Percentage calculation (`%`)
+* Smart bracket handling `()`
+* Input validation (prevents invalid expressions)
+* Character limit (22 characters)
+* Keyboard input support via `<textarea>`
+* Delete (backspace) functionality
+* Calculation history panel (toggle view)
+* Clean dark UI design
 
 ---
 
@@ -127,11 +127,11 @@ return new Function('return ' + expression)();
 
 ## 💡 Future Improvements
 
-* 🔹 Replace `innerHTML` with `$compile` for dynamic Angular binding
-* 🔹 Add localStorage for history persistence
-* 🔹 Add keyboard shortcuts (Enter = calculate)
-* 🔹 Improve error handling UI (replace `alert()`)
-* 🔹 Add scientific functions (sqrt, power, etc.)
+* Replace `innerHTML` with `$compile` for dynamic Angular binding
+* Add localStorage for history persistence
+* Add keyboard shortcuts (Enter = calculate)
+* Improve error handling UI (replace `alert()`)
+* Add scientific functions (sqrt, power, etc.)
 
 ---
 
