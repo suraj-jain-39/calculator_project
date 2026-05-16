@@ -29,6 +29,15 @@ Developed as a learning project for:
 
 ---
 
+## 🛠️ Tech Stack
+
+Frontend:
+  * HTML
+  * CSS
+  * AngularJS
+
+---
+
 ## 📁 Project Structure
 
 ```
