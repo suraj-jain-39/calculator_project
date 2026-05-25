@@ -149,7 +149,7 @@ return new Function('return ' + expression)();
 1. Download or clone the repository
    
    ```
-   git clone https://github.com/suraj-oswal-39/calculator_project.git
+   git clone https://github.com/suraj-jain-39/calculator_project.git
    ```
    
 3. Open `index.html` in your browser
