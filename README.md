@@ -165,7 +165,7 @@ Simple, responsive calculator with history panel and clean UI.
 
 ## 👨‍💻 Author
 
-**Suraj Uttamchand Oswal**
+**Oswal Suraj**
 📧 [surajoswal39@gmail.com](mailto:surajoswal39@gmail.com)
 
 ---
