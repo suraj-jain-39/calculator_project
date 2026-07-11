@@ -105,7 +105,7 @@ body {
 }
 
 .rightMenu {
-    position: absolute;
+    position: fixed;
     top: 8%;
     right: -100%;
     display: flex;
