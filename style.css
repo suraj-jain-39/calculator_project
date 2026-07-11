@@ -41,7 +41,7 @@ body {
 
 .calcBG {
     position: relative;
-    bottom: 42px;
+    bottom: 1rem;
     display: flex;
     flex-direction: column;
     background-color: rgb(11, 11, 11);
