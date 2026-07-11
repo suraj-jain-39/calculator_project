@@ -149,7 +149,7 @@ return new Function('return ' + expression)();
 1. Download or clone the repository
    
    ```
-   git clone https://github.com/suraj-jain-39/calculator_project.git
+   git clone https://github.com/oswal-suraj-39/calculator_project.git
    ```
    
 3. Open `index.html` in your browser
@@ -166,7 +166,7 @@ Simple, responsive calculator with history panel and clean UI.
 ## 👨‍💻 Author
 
 **Suraj Uttamchand Oswal**
-📧 [surajoswal3@gmail.com](mailto:surajoswal3@gmail.com)
+📧 [surajoswal39@gmail.com](mailto:surajoswal39@gmail.com)
 
 ---
 
